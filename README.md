@@ -15,6 +15,7 @@ BlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライ�
 - 視覚的なフィードバック
   - ブロック操作に制限時間を設け、 **操作可能時間のカウントダウン** をTextMeshProで表示し、視覚的にフィードバック。
     - ブロックが掴まれている間の色変化（黄 → 赤 → 黒） により、プレイヤーに制限時間を知らせる。
+  
 これらの機能の中核を担うのが、BlockVRise/BlockVRiseAssets/Scripts/MinoScript/MinoControllScript.cs です。
 
 また、本アプリケーションは大学院の研究で用いるユーザスタディ用アプリケーションとして作成しました。
