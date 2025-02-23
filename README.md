@@ -1,5 +1,15 @@
 # VlockVRise（調整中）
-[リポジトリ構造](#リポジトリツリー)
+## リポジトリツリー
+
+MinoControllScript.cs（BlockVRise/BlockVRiseAssets/Scripts/MinoScript/MinoControllScript.cs） は、本アプリケーションにおいて最も重要なスクリプトの一つです。
+このスクリプトは、VR空間におけるブロック（ミノ）のインタラクティブな操作を実現し、従来のテトリススタイルのゲームプレイをVR体験として最適化する役割を果たします。
+詳細なスクリプト内容はこちら
+
+    BlockVRisePackage/
+    ├── BlockVRise/                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
+    └── BlockVRisePackage.unitypackage        # BlockVRiseのパッケージファイル（「② Unity パッケージ（必要Assetのみ）として提供」で使用）
+    BlockVRiseApk.apk                         # BlockVRiseのapkファイル（「① APK ファイルとして提供（実行形式）」で使用）
+
 ## 🎯概要
 VlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライクゲームです。
 従来のテトリスゲームをVR空間でプレイすることが可能であり、インタラクティブなミノ（ブロック）の操作が可能です。
@@ -59,9 +69,3 @@ Meta XR SDKやDearVR Unityなどアプリケーション実装のためにイン
   - [個人用] kouseiotsuka0624@gmail.com
   - [大学用] 6524002o@st.toho-u.ac.jp
  
-## リポジトリツリー
-
-    BlockVRisePackage/
-    ├── BlockVRise/                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
-    └── BlockVRisePackage.unitypackage        # BlockVRiseのパッケージファイル（「② Unity パッケージ（必要Assetのみ）として提供」で使用）
-    BlockVRiseApk.apk                         # BlockVRiseのapkファイル（「① APK ファイルとして提供（実行形式）」で使用）
