@@ -62,6 +62,6 @@ Meta XR SDKやDearVR UnityなどのAssetは、本リポジトリに含まれて�
 ## リポジトリツリー
 
     BlockVRisePackage/
-    ├── BlockVRise                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
+    ├── BlockVRise/                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
     └── BlockVRisePackage.unitypackage        # BlockVRiseのパッケージファイル（「② Unity パッケージ（必要Assetのみ）として提供」で使用）
     BlockVRiseApk.apk                         # BlockVRiseのapkファイル（「① APK ファイルとして提供（実行形式）」で使用）
