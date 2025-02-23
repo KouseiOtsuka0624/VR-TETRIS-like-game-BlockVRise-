@@ -25,10 +25,19 @@ Meta Questシリーズに直接インストールして動作確認が可能なA
 
 #### Unity パッケージのダウンロード
 
-#### インストール手順（Unity で開く場合）
+#### インストール＆動作確認手順（Unity で開く場合）
 1. Unity 2021.3 LTS 以上をインストール(本プロジェクトはUnity 2021.3.25f1を使用し作成)
 2. Meta XR SDK や XR Plug-in Management など、MetaQuestアプリ開発に必要なパッケージを導入し、環境構築
-   - 詳しい環境構築の仕方はこちらのサイトを参考 https://tech.framesynthesis.co.jp/unity/metaquest/
+   - 詳しい環境構築の仕方はこちらのサイトの「Questアプリをビルドするには」を参考 https://tech.framesynthesis.co.jp/unity/metaquest/
 4. File > Import Package > Custom Package から XX.unitypackage をインポート
+5. OVRCameraRigを設置し、既存の「MainCamera」を削除
+   - 上記サイトの「vrのカメラ配置の基本」を参考
+6. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorの子にインポートしたフォルダ内のRayObjectを設置
+7. 6で設置したRayObjectをGameManagerオブジェクトにアタッチされているGameManagementScriptコンポーネントのLineRenderとLazerPointerにアタッチする。
+8. 同様のGameManagementScriptコンポーネントのRightControllerにOVRCameraRig＞TrackingSpace＞RightHandAnchor＞RightControllerAnchorをアタッチする。
+9. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞LeftControllerAnchorをMinoSponerオブジェクトにアタッチされているSpawnMinoコンポーネントのLeftControllerにアタッチする。
+10. PCと開発者モードに設定したMetaQuestシリーズを接続し、ビルド＆ラン
+
+
 
 
