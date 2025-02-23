@@ -56,5 +56,5 @@ Meta XR SDKやDearVR UnityなどのAssetは、本リポジトリに含まれて�
 本プロジェクトに関するお問い合わせは以下で受け付けています。(メールの方が確実です)
 - GitHub の Issues
 - メール
-  - [個人用] kouseiotsuka@gmail.com
+  - [個人用] kouseiotsuka0624@gmail.com
   - [大学用] 6524002o@st.toho-u.ac.jp
