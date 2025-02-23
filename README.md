@@ -1,19 +1,9 @@
 # VlockVRise（調整中）
-## リポジトリツリー
-    BlockVRisePackage/
-    ├── BlockVRise/                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
-    └── BlockVRisePackage.unitypackage        # BlockVRiseのパッケージファイル（「② Unity パッケージ（必要Assetのみ）として提供」で使用）
-    BlockVRiseApk.apk                         # BlockVRiseのapkファイル（「① APK ファイルとして提供（実行形式）」で使用）
+VlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライクゲームです。
+従来のテトリスゲームをVR空間でプレイすることが可能であり、コントローラーで直接ミノを掴んだり、動かしたりといったインタラクティブな操作が可能です。
+具体的に以下の機能が実装されています。
 
-MinoControllScript.cs（BlockVRise/BlockVRiseAssets/Scripts/MinoScript/MinoControllScript.cs） は、本アプリケーションにおいて最も重要なスクリプトの一つです。
-このスクリプトは、VR空間におけるブロック（ミノ）のインタラクティブな操作を実現し、従来のテトリススタイルのゲームプレイをVR体験として最適化する役割を果たします。
-
-### MinoControllScript.cs
-MinoControllScript.cs は、本アプリケーションにおいて最も重要なスクリプトの一つです。
-このスクリプトは、VR空間におけるブロック（ミノ）のインタラクティブな操作を実現し、従来のテトリススタイルのゲームプレイをVR体験として最適化する役割を果たします。
-具体的に本アプリケーションでは以下のような機能を提供します。
-
-#### 🎯 MinoControllScript.cs の機能
+## 🎯 BlockVRise の機能
 - インタラクティブコントローラー操作
  - コントローラーを用いた ブロックの移動、回転、掴む動作 を実装。
  - A/Bボタンによる回転操作、掴むアクションによる設置管理 など、直感的な操作が可能。
@@ -23,12 +13,9 @@ MinoControllScript.cs は、本アプリケーションにおいて最も重要�
  - ブロックの 積み上げや衝突判定、ゲームオーバー判定 を管理。
  - Grid 配列を用いて リアルタイムのグリッド管理システム による、ブロックの正確な整列やライン消去処理を実装。
 - 視覚的なフィードバック
- - 操作可能時間のカウントダウン を TextMeshPro で表示し、視覚的にフィードバック。
+ - ブロック操作に制限時間を設け、操作可能時間のカウントダウン を TextMeshPro で表示し、視覚的にフィードバック。
  - ブロックが掴まれている間の色変化（黄 → 赤 → 黒） により、プレイヤーに制限時間を知らせる。
 
-## 🎯概要
-VlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライクゲームです。
-従来のテトリスゲームをVR空間でプレイすることが可能であり、インタラクティブなミノ（ブロック）の操作が可能です。
 また、本アプリケーションは大学院の研究で用いるユーザスタディ用アプリケーションとして作成しました。
 本リポジトリは、アプリの動作確認や技術的な理解の支援、共有のための成果物公開用として作成、公開されています。
 
@@ -85,3 +72,8 @@ Meta XR SDKやDearVR Unityなどアプリケーション実装のためにイン
   - [個人用] kouseiotsuka0624@gmail.com
   - [大学用] 6524002o@st.toho-u.ac.jp
  
+## リポジトリツリー
+    BlockVRisePackage/
+    ├── BlockVRise/                            # BlockVRisePackage.unitypackage 内のAssetフォルダ
+    └── BlockVRisePackage.unitypackage        # BlockVRiseのパッケージファイル（「② Unity パッケージ（必要Assetのみ）として提供」で使用）
+    BlockVRiseApk.apk                         # BlockVRiseのapkファイル（「① APK ファイルとして提供（実行形式）」で使用）
