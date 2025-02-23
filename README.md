@@ -1,4 +1,5 @@
 # VlockVRise（調整中）
+[リポジトリ構造](#リポジトリツリー)
 ## 🎯概要
 VlockVRiseは、Meta Questシリーズ用に作成したVR版テトリスライクゲームです。
 従来のテトリスゲームをVR空間でプレイすることが可能であり、インタラクティブなミノ（ブロック）の操作が可能です。
@@ -38,7 +39,6 @@ Meta Questシリーズに直接インストールして動作確認が可能なA
 9. OVRCameraRig＞TrackingSpace＞RightHandAnchor＞LeftControllerAnchorをMinoSponerオブジェクトにアタッチされているSpawnMinoコンポーネントのLeftControllerにアタッチする。
 10. PCと開発者モードに設定したMetaQuestシリーズを接続し、ビルド＆ラン
 
-
 ## 🛠 使用技術
 - Unity 2021.3.25f1
 - C#
@@ -58,3 +58,5 @@ Meta XR SDKやDearVR UnityなどのAssetは、本リポジトリに含まれて�
 - メール
   - [個人用] kouseiotsuka0624@gmail.com
   - [大学用] 6524002o@st.toho-u.ac.jp
+ 
+## リポジトリツリー
